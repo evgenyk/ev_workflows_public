@@ -1,0 +1,55 @@
+{
+  "session": {
+    "is_right_to_left": true,
+    "lang": "en-US"
+  },
+  "page": {
+    "code": "register"
+  },
+  "tbd": {
+    "nonce": "1234",
+    "assets_path": "https://www.kinde.com/assets",
+    "cache_key": "1234"
+  },
+  "organization": {
+    "code": "org_1234",
+    "name": "Sydney water",
+    "branding": {
+      "logo": "https://www.sydneywater.com/logo.png",
+      "faviconLight": "https://www.sydneywater.com/favicon.ico",
+      "faviconDark": "https://www.sydneywater.com/favicon-dark.ico",
+      "primaryButtonColor": "#000000",
+      "primaryButtonTextColor": "#ffffff",
+      "buttonBorderRadius": "5px",
+      "cardBorderRadius": "5px",
+      "inputBorderRadius": "5px",
+      "linkColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "themeCode": "light",
+      "backgroundColorDark": "#000000",
+      "primaryButtonColorDark": "#ffffff",
+      "primaryButtonTextColorDark": "#000000",
+      "linkColorDark": "#ffffff"
+    }
+  },
+  "business": {
+    "name": "Kinde",
+    "branding": {
+      "logo": "https://www.kinde.com/logo.png",
+      "faviconLight": "https://www.sydneywater.com/favicon.ico",
+      "faviconDark": "https://www.sydneywater.com/favicon-dark.ico",
+      "primaryButtonColor": "#000000",
+      "primaryButtonTextColor": "#ffffff",
+      "buttonBorderRadius": "5px",
+      "cardBorderRadius": "5px",
+      "inputBorderRadius": "5px",
+      "linkColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "themeCode": "light",
+      "backgroundColorDark": "#000000",
+      "primaryButtonColorDark": "#ffffff",
+      "primaryButtonTextColorDark": "#000000",
+      "linkColorDark": "#ffffff"
+    }
+  }
+}
