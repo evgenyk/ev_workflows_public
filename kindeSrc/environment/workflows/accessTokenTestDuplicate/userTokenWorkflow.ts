@@ -16,6 +16,8 @@ export const workflowSettings = {
 };
 
 
+!!broken code on purpose !!!
+
 export default async function handle(event: any) {
     kinde.accessToken.setCustomClaim('hello', 'world');
     return 'testing add user token claim';
