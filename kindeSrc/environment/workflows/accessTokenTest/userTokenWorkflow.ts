@@ -35,7 +35,6 @@ export default async function handle(event: any) {
     
     const hello = kinde.env.DEBUGGING_LEVEL;
     console.log('testing console log', {log: 'object'});
-    throw new RuntimeException("Test runtime exception");
     kinde.accessToken.setCustomClaim('hello', 'world');
     console.error('testing console error log', {log: 'object'});
     return 'testing add user token claim';
