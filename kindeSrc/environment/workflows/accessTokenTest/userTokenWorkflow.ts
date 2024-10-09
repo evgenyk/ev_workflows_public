@@ -30,10 +30,10 @@ export default async function handle(event: any) {
             authorization: '${{MY_MAIN_DATABASE_PASSWORD)}'
         }
     })
-    const hello = kinde.env.get('MY_MAIN_DATABASE_PASSWORD');
-    console.log(hello);
+    //const hello = kinde.env.get('MY_MAIN_DATABASE_PASSWORD');
+    //console.log(hello);
     
-    const hello = kinde.env.DEBUGGING_LEVEL;
+    //const hello = kinde.env.DEBUGGING_LEVEL;
     console.log('testing console log', {log: 'object'});
     kinde.accessToken.setCustomClaim('hello', 'world');
     console.error('testing console error log', {log: 'object'});
