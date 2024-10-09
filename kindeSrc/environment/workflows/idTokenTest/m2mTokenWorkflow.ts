@@ -16,7 +16,7 @@ export default {
     async handle(event: any) {
         kinde.m2mToken.setCustomClaim('random', 'test');
         console.log('hello', {from: 'logs'});
-        console.log('hello error', {from: 'logs'});
+        console.error('hello error', {from: 'logs'});
         console.warn('hello warn', {from: 'logs'});
         return 'testing add user token claim';
     },
