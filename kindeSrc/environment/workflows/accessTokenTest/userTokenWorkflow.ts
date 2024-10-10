@@ -2,9 +2,9 @@ import {hello} from "./hello"
 
 export const workflowSettings = {
     id: 'addAccessTokenClaim',
+    name: 'User token gen',
     trigger: 'user:tokens_generation',
     orgs: ['org1', 'org2'],
-    
     bindings: {
         console: {},
         'kinde.fetch': {},
