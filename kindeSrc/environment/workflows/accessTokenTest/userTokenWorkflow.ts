@@ -13,12 +13,13 @@ export const workflowSettings = {
         },
         'kinde.accessToken': {
             resetClaims: true
-        },
+        }
+        /*,
         "kinde.env": {
             "canReadSecretValue": true,
             "requestedSecrets": ["MY_MAIN_DATABASE_PASSWORD"]
         },
-        "kinde.managementApi": {}
+        "kinde.managementApi": {}*/
     }
 };
 
