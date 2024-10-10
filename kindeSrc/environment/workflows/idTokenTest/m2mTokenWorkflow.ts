@@ -14,6 +14,7 @@ export const workflowSettings = {
 
 export default {
     async handle(event: any) {
+        console.log('eveny', event);
         kinde.m2mToken.setCustomClaim('random', 'test');
         console.log('hello', {from: 'logs'});
         console.error('hello error', {from: 'logs'});
