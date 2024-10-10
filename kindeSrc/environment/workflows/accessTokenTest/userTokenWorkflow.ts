@@ -24,6 +24,7 @@ export const workflowSettings = {
 
 
 export default async function handle(event: any) {
+    console.log('event', event);
     //kinde.managementApi.users.delete('kp_sfkjhfskdjhfhkjdsh');
     kinde.fetch('https://worldtimeapi.org/api/timezone/Etc/UTC', {
         headers: {
