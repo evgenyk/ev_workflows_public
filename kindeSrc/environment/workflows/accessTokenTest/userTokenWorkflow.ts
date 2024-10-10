@@ -25,7 +25,7 @@ export const workflowSettings = {
 
 
 export default async function handle(event: any) {
-    console.log('event', event);
+    console.log('event', event, 'ip', event.request.ip);
     //kinde.managementApi.users.delete('kp_sfkjhfskdjhfhkjdsh');
     const ipDetails = kinde.fetch('https://api.ip2location.io/?key=AC31AEEA152BE7EDF5FDB05A5B549C3F&ip='+event.request.ip, {
         headers: {
