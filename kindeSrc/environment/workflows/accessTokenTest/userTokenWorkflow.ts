@@ -27,11 +27,12 @@ export const workflowSettings = {
 export default async function handle(event: any) {
     console.log('event', event);
     //kinde.managementApi.users.delete('kp_sfkjhfskdjhfhkjdsh');
-    kinde.fetch('https://worldtimeapi.org/api/timezone/Etc/UTC', {
+    const ipDetails = kinde.fetch('https://api.ip2location.io/?key=AC31AEEA152BE7EDF5FDB05A5B549C3F&ip='+event.request.ip, {
         headers: {
             authorization: '${{MY_MAIN_DATABASE_PASSWORD)}'
         }
     })
+    console.log('ipDetails', ipDetails);
     //const hello = kinde.env.get('MY_MAIN_DATABASE_PASSWORD');
     //console.log(hello);
     
