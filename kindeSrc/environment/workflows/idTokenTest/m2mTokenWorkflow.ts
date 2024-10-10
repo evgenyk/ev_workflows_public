@@ -2,6 +2,7 @@ import {hello} from "./hello"
 
 export const workflowSettings = {
     id: 'addUserTokenClaim',
+    name: 'M2M token updates',
     trigger: 'm2m:token_generation',
     bindings: {
         console: {},
